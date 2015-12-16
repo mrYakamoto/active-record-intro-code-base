@@ -1,0 +1,19 @@
+
+Rake / Active Record Reflections
+
+Rake includes commands to make it easier to interact with our environment (models
+and database)
+
+Migration files are used to build the database schema
+
+A schema_migrations table is created which keeps track of migrations. This 
+can be used to prevent duplicate migrations and to roll back previous
+migrations. 
+
+The seed command in Rake runs our seeds.rb file, which populates our database 
+tables
+
+The rake console command opens up irb with our environment loaded and enables 
+us to interact with the models and databases. Active Record methods improve 
+this interaction and enable lots of actions to see / modify the database. 
+
